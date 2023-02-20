@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>文章</title>
+    <link href="/2023/02/20/%E6%96%87%E7%AB%A0/"/>
+    <url>/2023/02/20/%E6%96%87%E7%AB%A0/</url>
+    
+    <content type="html"><![CDATA[<p>ping命令在web题中的实训</p><h1 id="ping命令在web题中的实训"><a href="#ping命令在web题中的实训" class="headerlink" title="ping命令在web题中的实训"></a>ping命令在web题中的实训</h1><h2 id="ping命令的介绍"><a href="#ping命令的介绍" class="headerlink" title="ping命令的介绍"></a>ping命令的介绍</h2><p>ping，因特网包探索器，用于测试网络连接器的程序。<br>ping是工作在TCP&#x2F;IP网络体系结构中应用层的一个服务命令，主要是向特定的目的主机发送ICMP（因特网报文控制协议）Echo请求报文，测试目的站是否可达及了解其有关状态。</p><h2 id="检测是否可以注入"><a href="#检测是否可以注入" class="headerlink" title="检测是否可以注入"></a>检测是否可以注入</h2><p>传入参数127.0.0.1;whoami,如果存在注入的话，得到的结果是“www-data”。</p><h2 id="在web中ping题目常用过滤字符"><a href="#在web中ping题目常用过滤字符" class="headerlink" title="在web中ping题目常用过滤字符"></a>在web中ping题目常用过滤字符</h2><p>‘$’、’;’、’|’、’-‘、’(‘、’)’、’反引号’、’||’、’&amp;&amp;’、’&amp;’、’{‘、’}’</p><h2 id="ls访问目录"><a href="#ls访问目录" class="headerlink" title="ls访问目录"></a>ls访问目录</h2><p>可以直接传参127.0.0.1;ls,需要解决过滤的话就是127.0.0.1;a&#x3D;’l’;b&#x3D;’s’;c&#x3D;$a$b;$c(c这一块可能需要用出引号包裹起来)。</p><h2 id="尝试寻找flag文件"><a href="#尝试寻找flag文件" class="headerlink" title="尝试寻找flag文件"></a>尝试寻找flag文件</h2><p>127.0.0.1 &amp;&amp;find &#x2F; -name “flag*”</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Python</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>原创：lingdu</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
