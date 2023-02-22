@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>在VMware中安装Windows Server 2003详细图文安装过程</title>
+    <link href="/2023/02/22/windows-server-2003/"/>
+    <url>/2023/02/22/windows-server-2003/</url>
+    
+    <content type="html"><![CDATA[<p>Windows Server 2003</p><h1 id="在VMware中安装Windows-Server-2003详细图文安装过程"><a href="#在VMware中安装Windows-Server-2003详细图文安装过程" class="headerlink" title="在VMware中安装Windows Server 2003详细图文安装过程"></a>在VMware中安装Windows Server 2003详细图文安装过程</h1><h2 id="一、首先需要下载ios镜像，下面给出镜像地址，最好下载企业版"><a href="#一、首先需要下载ios镜像，下面给出镜像地址，最好下载企业版" class="headerlink" title="一、首先需要下载ios镜像，下面给出镜像地址，最好下载企业版"></a>一、首先需要下载ios镜像，下面给出镜像地址，最好下载企业版</h2><p>下载地址: <a href="https://www.2cto.com/soft/201607/65695.html">windows server 2003</a></p><h2 id="二、VMware安装步骤"><a href="#二、VMware安装步骤" class="headerlink" title="二、VMware安装步骤"></a>二、VMware安装步骤</h2><p>打开VMware，点击我的主页，选择新建虚拟机</p><img src="/2023/02/22/windows-server-2003/%E9%A6%96%E9%A1%B5.png" class="" title="图片展示"><p>选择<strong>典型</strong>这一个，然后点击下一步</p><img src="/2023/02/22/windows-server-2003/%E5%90%91%E5%AF%BC.png" class="" title="图片展示"><p>这里选择<strong>稍后安装</strong>，然后点击下一步</p><img src="/2023/02/22/windows-server-2003/%E5%AE%89%E8%A3%851.png" class="" title="图片展示"><p>选择第一个<strong>Microsoft Windows（w）</strong>，下面选择你自己下载的镜像的版本，下载的企业版的话，和我一样就行</p><img src="/2023/02/22/windows-server-2003/%E5%AE%89%E8%A3%852.png" class="" title="图片展示"><p>名字我这是是默认的，安装路径，自己选取内存空间足的位置</p><img src="/2023/02/22/windows-server-2003/%E5%AE%89%E8%A3%853.png" class="" title="图片展示"><p>这里的最大磁盘大小，根据自己的需求定，他推荐的40GB其实已经够了，继续下一步</p><img src="/2023/02/22/windows-server-2003/%E5%AE%89%E8%A3%854.png" class="" title="图片展示"><p>点击<strong>自定义硬件</strong>，点击新<strong>CD&#x2F;DVD（IDE）</strong>，选择使用刚刚下载的iOS镜像</p><img src="/2023/02/22/windows-server-2003/%E5%AE%89%E8%A3%855.png" class="" title="图片展示"><img src="/2023/02/22/windows-server-2003/%E5%AE%89%E8%A3%856.png" class="" title="图片展示"><p>配置完成后，点击完成即可</p><img src="/2023/02/22/windows-server-2003/%E5%AE%89%E8%A3%857.png" class="" title="图片展示"><p>此时就会生成了你需要的虚拟机，点击开启虚拟机</p><img src="/2023/02/22/windows-server-2003/%E5%AE%89%E8%A3%858.png" class="" title="图片展示"><h2 id="三、系统安装"><a href="#三、系统安装" class="headerlink" title="三、系统安装"></a>三、系统安装</h2><p>开机之后，等待一会即会进入这个界面，按<strong>enter</strong>即可开始安装</p><img src="/2023/02/22/windows-server-2003/%E5%AE%89%E8%A3%859.png" class="" title="图片展示"><p>直接按<strong>F8</strong></p><img src="/2023/02/22/windows-server-2003/%E5%AE%89%E8%A3%8510.jpg" class="" title="图片展示"><p>按<strong>enter</strong>继续安装</p><img src="/2023/02/22/windows-server-2003/%E5%AE%89%E8%A3%8511.png" class="" title="图片展示"><p>选择<strong>用NTFS文件格式系统格式化磁盘分区</strong></p><img src="/2023/02/22/windows-server-2003/%E5%AE%89%E8%A3%8512.png" class="" title="图片展示"><p>一直等待即可，直到到了这里，继续安装，点击下一步</p><img src="/2023/02/22/windows-server-2003/%E5%AE%89%E8%A3%8513.png" class="" title="图片展示"><p>填完信息，继续下一步</p><img src="/2023/02/22/windows-server-2003/%E5%AE%89%E8%A3%8514.png" class="" title="图片展示"><p>这里需要产品密钥，我搞了好久，那些都被认证得差不多了，最终<strong>RYCR6-T7Y6M-2TVHK C2YW3-7TYQ8</strong>这个可以用</p><img src="/2023/02/22/windows-server-2003/%E5%AE%89%E8%A3%8515.png" class="" title="图片展示"><p>这里的服务器选择500，然后点击下一步</p><img src="/2023/02/22/windows-server-2003/%E5%AE%89%E8%A3%8516.png" class="" title="图片展示"><p>这里一定要记好自己的密码，重置很麻烦，用户名随意，然后点击下一步</p><img src="/2023/02/22/windows-server-2003/%E5%AE%89%E8%A3%8517.png" class="" title="图片展示"><p>继续下一步</p><img src="/2023/02/22/windows-server-2003/%E5%AE%89%E8%A3%8518.png" class="" title="图片展示"><p>等待一会，继续下一步</p><img src="/2023/02/22/windows-server-2003/%E5%AE%89%E8%A3%8519.png" class="" title="图片展示"><p>继续下一步</p><img src="/2023/02/22/windows-server-2003/%E5%AE%89%E8%A3%8520.png" class="" title="图片展示"><p>到这里就结束了，他自己会重启，然后根据要求Ctrl+alt+delete进入登录界面，输入刚刚设置的密码即可。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>操作系统</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>原创：lingdu</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Cisco基础笔记——主页的认识</title>
     <link href="/2023/02/21/Cisco%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0%E2%80%94%E2%80%94%E4%B8%BB%E9%A1%B5%E7%9A%84%E8%AE%A4%E8%AF%86/"/>
     <url>/2023/02/21/Cisco%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0%E2%80%94%E2%80%94%E4%B8%BB%E9%A1%B5%E7%9A%84%E8%AE%A4%E8%AF%86/</url>
